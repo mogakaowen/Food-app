@@ -1,0 +1,48 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+li a{
+    height: 10rem;
+    width: 20rem;
+    border: 1px solid #eee;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: red;
+}
+
+li a:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.content{
+    margin-left: 10px;
+    color: red;
+}
+
+ngb-rating {
+    /* color: #FFC107; */
+    font-size: 20px;
+}
+
+.favorite.not{
+    color: #575454;
+}
+
+.favorite{
+    margin-left: 5px;
+}
+
+.product-item-footer{
+    color: #575454;
+    font-size: medium;
+}

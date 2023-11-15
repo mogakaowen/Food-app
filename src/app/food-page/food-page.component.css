@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.container>* {
+    min-width: 25rem;
+    max-width: 50rem;
+}
+
+img {
+    border-radius: 3rem;
+    flex: 1 0;
+    object-fit: cover;
+    height: 30rem;
+    margin: 1rem;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0;
+    /*this means that the element is flexible, will grow to fill the space, but won't shrink below its initial size */
+    margin: 1 rem;
+    padding: 2rem;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.favorite{
+    margin-left: 10px;
+    font-size: 2.7rem;
+    color: red;
+}
+
+.favorite.not{
+    color: #575454;
+}
+
+ngb-rating {
+    color: red;
+    font-size: 25px;
+}
+
+
+.origins{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description{
+    font-size: 1.5rem;
+}
+
+.cook-time{
+    font-size: 1.5rem;
+}
+
+.price{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+

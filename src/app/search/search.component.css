@@ -1,0 +1,40 @@
+div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px #eaeaea;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+div input {
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #eaeaea;
+    font-size: smaller;
+    outline: none;
+}
+
+div button {
+    background-color: #eaeaea;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #eaeaea;
+    font-size: smaller;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+div button:hover {
+    background-color: grey;
+}
