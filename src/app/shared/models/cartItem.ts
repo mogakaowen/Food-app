@@ -3,7 +3,7 @@ import { Food } from "./food";
 export class CartItem {
     constructor(food: Food) {
         this.food = food;
-        this.price;
+        // this.price;
     }
     food: Food;
     quantity: number = 1;

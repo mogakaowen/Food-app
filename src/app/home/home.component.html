@@ -1,5 +1,9 @@
 <app-search></app-search>
 <app-tags></app-tags>
+<app-not-found
+ [visible]="!foods || foods.length <=0"
+ resetText="Click to go back">
+</app-not-found>
 
 <ul>
     <li *ngFor="let food of foods">
