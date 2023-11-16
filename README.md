@@ -3,5 +3,7 @@ This project is a front-end implementation of a typical food app. The app contai
 
 ## Building and deploying
 To deploy the app, use ng build and the include the "build:prod": "ng build --c=production" in your package.json file. You can then deploy it on netlify
+https://whimsical-mogaka-bites.netlify.app/
 
 ![App Image](./src/assets/images/foodapp.jpeg)
+
